@@ -4,16 +4,26 @@ body {
     background: url(/images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+
+}
+hr {
+    max-width: 50%;
+}
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 .container {
     text-align: center;
-    background-color: #3F0075;
+    background-color: #210E2D;
     padding: 20px;
+     margin: auto;
     margin-top: 50px;
     max-width: 300px;
    border-radius: 4px;
-   box-shadow: 2px 2px 2px #4F008E;
+   box-shadow: 2px 2px 2px #210E2D;
+    
 }
 .email-label {
 font-size: 20px;
@@ -26,4 +36,16 @@ color: #ffff;
 
 .email-input {
     margin-bottom: 13px;
+}
+#remember {
+    color: #ffff;
+    
+}
+.submit-button {
+padding: 8px 15px;
+margin: 15px;
+background-color: #4F008E;
+border-width: 0;
+border-radius: 4px;
+color: #ffff;
 }
