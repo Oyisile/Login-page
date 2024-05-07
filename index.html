@@ -11,10 +11,20 @@
     <form action="">
         <label for="email">Email </label>
         
-        <input type="text" name="email" placeholder="Enter your email">
+        <input type="text" name="email" placeholder="Enter your email" required class="email-input">
+        <br>
         <label for="password">Password</label>
-        <input type="password" name="password" placeholder="Enter your password">
-        <input type="submit">
+        <input type="password" name="password" placeholder="Enter your password" required class="password-input">
+        <br>
+        <label for="remember-me">Remember me?</label>
+    <input type="checkbox" name="remember-me" id="">
+    <br>
+        <input type="submit" class="submit-button">
     </form>
+   
+    <div><a href="">Forgot password?</a> </div>
+    <hr>OR <hr>
+    <button>Login with Google</button>
+    <p>Don't have an account yet? <a href="">Sign up</a></p>
 </body>
 </html>
