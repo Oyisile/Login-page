@@ -60,6 +60,7 @@ color: #ffff;
 }
 .alternative {
     color: #210E2D;
+    margin-top: 18px;
 }
 .login-google {
     background-color: #4F008E;
@@ -68,8 +69,16 @@ color: #ffff;
     color: #ffff;
     border-radius: 4px;
     font-family: "Courier Prime", monospace;
-
+    margin-top: 18px;
 }
 .no-account {
     color: #210E2D;
+}
+.forgot-password {
+    text-decoration: none;
+    color: #4F008E;
+}
+.sign-up-link {
+    text-decoration: none;
+    color: #4F008E;
 }
