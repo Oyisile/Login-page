@@ -6,8 +6,13 @@ body {
     background-repeat: no-repeat;
 
 }
+h1 {
+    color: #210E2D;
+}
 hr {
     max-width: 50%;
+    color: #210E2D;
+    display: inline;
 }
 .courier-prime-regular {
   font-family: "Courier Prime", monospace;
@@ -16,7 +21,7 @@ hr {
 }
 .container {
     text-align: center;
-    background-color: #210E2D;
+    background-color: white;
     padding: 20px;
      margin: auto;
     margin-top: 50px;
@@ -27,18 +32,22 @@ hr {
 }
 .email-label {
 font-size: 20px;
-color: #ffff;
+color: #210E2D;
 }
 .password-label {
     font-size: 20px;
-    color: white;
+    color: #210E2D;
 }
 
 .email-input {
     margin-bottom: 13px;
+    padding: 10px 10px;
+}
+.password-input {
+    padding: 10px 10px;
 }
 #remember {
-    color: #ffff;
+    color: #210E2D;
     
 }
 .submit-button {
@@ -48,4 +57,19 @@ background-color: #4F008E;
 border-width: 0;
 border-radius: 4px;
 color: #ffff;
+}
+.alternative {
+    color: #210E2D;
+}
+.login-google {
+    background-color: #4F008E;
+    border-width: 0;
+    padding: 8px 15px;
+    color: #ffff;
+    border-radius: 4px;
+    font-family: "Courier Prime", monospace;
+
+}
+.no-account {
+    color: #210E2D;
 }
