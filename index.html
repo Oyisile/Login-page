@@ -32,6 +32,11 @@
     <button class="login-google">Log In with Google</button>
     <p class="no-account">Don't have an account yet? <a href="/sign-up.html" class="sign-up-link">Sign up</a></p>
     </div>
-    <script src="/script/index.js"></script>
+    <script>
+    function loggingIn(event) {
+    window.location.reload();
+   }
+   let logInButton = document.querySelector("#login-button");
+   logInButton.addEventListener("click", loggingIn);</script>
 </body>
 </html>

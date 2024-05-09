@@ -1,8 +1,4 @@
-function loggingIn(event) {
-window.location.reload();
-}
-let logInButton = document.querySelector("#login-button");
-logInButton.addEventListener("click", loggingIn);
+
 
 
 function matchPassword(event) {
