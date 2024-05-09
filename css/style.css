@@ -30,24 +30,21 @@ hr {
    box-shadow: 2px 2px 2px #210E2D;
     
 }
-.email-label {
+.email-label, .password-label {
 font-size: 20px;
 color: #210E2D;
-}
-.password-label {
-    font-size: 20px;
-    color: #210E2D;
 }
 
 .email-input {
     margin-bottom: 13px;
-    padding: 10px 10px;
+    padding: 10px;
 }
 .password-input {
-    padding: 10px 10px;
+    padding: 10px;
 }
-#remember {
+#remember, .no-account {
     color: #210E2D;
+    
     
 }
 .submit-button {
@@ -65,20 +62,65 @@ color: #ffff;
 .login-google {
     background-color: #4F008E;
     border-width: 0;
-    padding: 8px 15px;
+    padding: 10px 15px;
     color: #ffff;
     border-radius: 4px;
     font-family: "Courier Prime", monospace;
-    margin-top: 18px;
+    margin-top: 15px;
 }
-.no-account {
-    color: #210E2D;
-}
+
 .forgot-password {
     text-decoration: none;
     color: #4F008E;
 }
+.forgot-password:hover {
+    text-decoration: underline;
+}
 .sign-up-link {
     text-decoration: none;
     color: #4F008E;
+}
+.sign-up-link:hover {
+    text-decoration: underline;
+}
+.first-name-label{
+ font-size: 20px;
+    color: #210E2D;
+}
+.last-name-label{
+     font-size: 20px;
+    color: #210E2D;
+}
+.first-name-input, .last-name-input, #create-password-input {
+padding: 10px;
+margin-bottom: 15px;
+}
+
+
+.create-password-label{
+    font-size: 20px;
+    color: #210E2D;
+}
+
+.confirm-password-label{
+    font-size: 20px;
+    color: #210E2D;
+    
+}
+#confirm-password-input{
+    padding: 10px;
+}
+#sign-up-button {
+    margin-top: 20px;
+    padding: 10px 12px;
+    background-color: #4F008E;
+    color: #ffff;
+    border-width: 0;
+    border-radius: 4px;
+}
+.login-link {
+    text-decoration: none;
+}
+.login-link:hover {
+    text-decoration: underline;
 }

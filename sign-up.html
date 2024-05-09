@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="/css/style.css">
     <title>Sign-up page</title>
 </head>
-<body>
+<body class="courier-prime-regular">
     <div class="container">
-        <h1>Sign-up </h1>
+        <h1>Sign Up </h1>
         <form action="">
-            <label for="name">First Name</label> <br>
-            <input type="text" name="name" placeholder="Enter your first name" required> <br>
-            <label for="surname" >Last Name</label> <br>
-            <input type="text" name="surname" placeholder="Enter your last name" required> <br>
-            <label for="email">Email</label> <br>
-            <input type="email" name="email" id="" placeholder="Enter your email "> <br>
-            <label for="password">Create Password</label> <br>
-            <input type="password" name="password" minlength="8" placeholder="Please create a password" required> <br>
-            <label for="confirm-password"> Confirm Password</label> <br>
-            <input type="password" placeholder="Please confirm your password"> <br>
+            <label for="name" class="first-name-label">First Name</label> <br>
+            <input type="text" name="name" placeholder="Enter your first name" required class="first-name-input"> <br>
+            <label for="surname" class="last-name-label">Last Name</label> <br>
+            <input type="text" name="surname" placeholder="Enter your last name" required class="last-name-input"> <br>
+            <label for="email" class="email-label">Email</label> <br>
+            <input type="email" name="email" id="" placeholder="Enter your email" class="email-input"> <br>
+            <label for="password" class="create-password-label">Create Password</label> <br>
+            <input type="password" name="password" minlength="8" placeholder="Please create a password" id="create-password-input" required> <br>
+            <label for="confirm-password" class="confirm-password-label"> Confirm Password</label> <br>
+            <input type="password" placeholder="Please confirm your password" id="confirm-password-input" required> <br>
             
-            <input type="submit" value="Sign Up">
+            <input type="submit" value="Sign Up" id="sign-up-button">
 
         </form>
+        <div class="alternative">OR</div>
+    <button class="login-google">Sign Up with Google</button>
        <p> Already have an account?
-         <a href="/index.html">Log In 
+         <a href="/index.html"  class="login-link">Log In 
          </a>
          </p>
     </div>
