@@ -7,21 +7,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="/css/style.css">
+   
     <title>Sign-up page</title>
 </head>
 <body class="courier-prime-regular">
     <div class="container">
         <h1>Sign Up </h1>
-        <form action="">
-            <label for="name" class="first-name-label">First Name</label> <br>
+        <form action="" id="sign-up-form">
+            <label for="first-name-input" class="first-name-label">First Name</label> <br>
             <input type="text" name="name" placeholder="Enter your first name" required class="first-name-input"> <br>
-            <label for="surname" class="last-name-label">Last Name</label> <br>
+            <label for="last-name-input" class="last-name-label">Last Name</label> <br>
             <input type="text" name="surname" placeholder="Enter your last name" required class="last-name-input"> <br>
             <label for="email" class="email-label">Email</label> <br>
             <input type="email" name="email" id="" placeholder="Enter your email" class="email-input"> <br>
-            <label for="password" class="create-password-label">Create Password</label> <br>
+            <label for="create-password-input" class="create-password-label">Create Password</label> <br>
             <input type="password" name="password" minlength="8" placeholder="Please create a password" id="create-password-input" required> <br>
-            <label for="confirm-password" class="confirm-password-label"> Confirm Password</label> <br>
+            <label for="confirm-password-input" class="confirm-password-label"> Confirm Password</label> <br>
             <input type="password" placeholder="Please confirm your password" id="confirm-password-input" required> <br>
             
             <input type="submit" value="Sign Up" id="sign-up-button">
@@ -34,5 +35,6 @@
          </a>
          </p>
     </div>
+     <script src="/script/index.js"></script>
 </body>
 </html>
